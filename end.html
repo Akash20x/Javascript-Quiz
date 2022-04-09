@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+<div class="main">
+    <div style="display: block;">
+    <h4 class="score_heading">Score Percentage</h4>
+    <div id="prog" class="circlechart" data-percentage="50"></div>
+</div>
+    <div class="resultval">
+   <h3 id="correctans"></h3>
+   <h3 id="wrongans"></h3>
+   <h3 id="skippedans"></h3>
+</div>
+    <div class="container" style="margin-right: 10rem;">
+        <div id="end" class="flex-center flex-column">
+
+            <h1 id="finalScore">0</h1>
+                <form class="end-form-container">
+                    <h2 id="end-text">
+                        Enter your name below to save your score!
+                    </h2>
+                    <input type="text" name="name" id="username" placeholder="Enter your name">
+                    <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+                </form>
+                <a href="game.html" class="btn">Play Again</a>
+                <a href="index.html" class="btn">Go Home</a>
+        </div>
+    </div>
+</div>
+    
+<script src="./js/end.js"></script>    
+<script>
+    $('.circlechart').circlechart(); 
+</script>
+</body>
+</html>
