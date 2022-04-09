@@ -44,6 +44,10 @@ color: white;
 font-weight: 400;
 }
 
+.subheading{
+    text-align: center;
+}
+
 h3 {
     font-size: 3rem;
     color: white;
@@ -270,17 +274,17 @@ input::placeholder {
         font-size: 3rem;
         position: absolute;
         top: 10rem;
-        left: 11rem;
+        left: 9rem;
     
     }
     .resultval{
         display: block;
         margin-top: 36rem;
         position: absolute;
-        left: 10rem;
+        left: 9rem;
     }
     #finalScore{
-        margin-top: 3rem;
+        margin-top: 15rem;
     }
 
 }
