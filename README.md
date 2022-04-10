@@ -18,6 +18,7 @@ Here is a mock-up of how the page looks and functions.
 * JavaScript
 * HTML
 * CSS
+* jQuery
 
 ## Features
 * Multiple choice javascript questions in random order
