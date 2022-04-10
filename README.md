@@ -6,7 +6,7 @@
 - Once the timer reaches zero seconds or all ten questions are completed, the quiz will automatically end.
 
 ## Purpose
-As a coding student, I want to be able to take a timed quiz to test my skills. Not only will I be taking the quiz, I'll also be making the quiz! 
+As a coding student, I want to be able to take a timed quiz to test my skills. Not only by taking the quiz, but by making the quiz! 
 
 ## Preview
 Here is a mock-up of how the page looks and functions.
